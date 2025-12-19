@@ -191,8 +191,7 @@ async def my_event_handler(event):
 
                 cc_details = f"<code>{cc}|{mes}|{ano}|{cvv}</code>"
                 random_digits = f"{random.randint(0, 9999):04d}"
-                extra_gen = f"<code>/gen {cc[:8
-                                             ]}{random_digits}|{mes}|{ano}|rnd</code>"
+                extra_gen = f"<code>/gen {cc[:8]}{random_digits}|{mes}|{ano}|rnd</code>"
 
                 header_link = "https://t.me/HG_SCRAPER"
                 cc_link = "https://t.me/HG_SCRAPER"
